@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  ZCJTableViewCellDemo
 //
 //  Created by zhangchaojie on 16/8/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-

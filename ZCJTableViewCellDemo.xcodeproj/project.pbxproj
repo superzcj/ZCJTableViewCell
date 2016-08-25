@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		D75FA5861D6BF43200D85A0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA5851D6BF43200D85A0C /* main.m */; };
 		D75FA5891D6BF43200D85A0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA5881D6BF43200D85A0C /* AppDelegate.m */; };
-		D75FA58C1D6BF43200D85A0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA58B1D6BF43200D85A0C /* ViewController.m */; };
 		D75FA58F1D6BF43200D85A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75FA58D1D6BF43200D85A0C /* Main.storyboard */; };
 		D75FA5911D6BF43200D85A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75FA5901D6BF43200D85A0C /* Assets.xcassets */; };
 		D75FA5941D6BF43200D85A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75FA5921D6BF43200D85A0C /* LaunchScreen.storyboard */; };
 		D75FA59F1D6BF43200D85A0C /* ZCJTableViewCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA59E1D6BF43200D85A0C /* ZCJTableViewCellDemoTests.m */; };
 		D75FA5AA1D6BF43200D85A0C /* ZCJTableViewCellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA5A91D6BF43200D85A0C /* ZCJTableViewCellDemoUITests.m */; };
+		D75FA5BA1D6BF58700D85A0C /* ZCJButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA5B91D6BF58700D85A0C /* ZCJButtonView.m */; };
+		D75FA5BD1D6BF5A700D85A0C /* ZCJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA5BC1D6BF5A700D85A0C /* ZCJTableViewCell.m */; };
+		D75FA5C01D6C20D500D85A0C /* NSMutableArray+ZCJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA5BF1D6C20D500D85A0C /* NSMutableArray+ZCJButton.m */; };
+		D75FA5C61D6C4A1000D85A0C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FA5C51D6C4A1000D85A0C /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		D75FA5851D6BF43200D85A0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D75FA5871D6BF43200D85A0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D75FA5881D6BF43200D85A0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D75FA58A1D6BF43200D85A0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D75FA58B1D6BF43200D85A0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D75FA58E1D6BF43200D85A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D75FA5901D6BF43200D85A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D75FA5931D6BF43200D85A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 		D75FA5A51D6BF43200D85A0C /* ZCJTableViewCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCJTableViewCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75FA5A91D6BF43200D85A0C /* ZCJTableViewCellDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCJTableViewCellDemoUITests.m; sourceTree = "<group>"; };
 		D75FA5AB1D6BF43200D85A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75FA5B81D6BF58700D85A0C /* ZCJButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJButtonView.h; sourceTree = "<group>"; };
+		D75FA5B91D6BF58700D85A0C /* ZCJButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJButtonView.m; sourceTree = "<group>"; };
+		D75FA5BB1D6BF5A700D85A0C /* ZCJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJTableViewCell.h; sourceTree = "<group>"; };
+		D75FA5BC1D6BF5A700D85A0C /* ZCJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJTableViewCell.m; sourceTree = "<group>"; };
+		D75FA5BE1D6C20D500D85A0C /* NSMutableArray+ZCJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ZCJButton.h"; sourceTree = "<group>"; };
+		D75FA5BF1D6C20D500D85A0C /* NSMutableArray+ZCJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ZCJButton.m"; sourceTree = "<group>"; };
+		D75FA5C41D6C4A1000D85A0C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D75FA5C51D6C4A1000D85A0C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +110,11 @@
 		D75FA5831D6BF43200D85A0C /* ZCJTableViewCellDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D75FA5B71D6BF44A00D85A0C /* ZCJTableViewCell */,
 				D75FA5871D6BF43200D85A0C /* AppDelegate.h */,
 				D75FA5881D6BF43200D85A0C /* AppDelegate.m */,
-				D75FA58A1D6BF43200D85A0C /* ViewController.h */,
-				D75FA58B1D6BF43200D85A0C /* ViewController.m */,
+				D75FA5C41D6C4A1000D85A0C /* TableViewController.h */,
+				D75FA5C51D6C4A1000D85A0C /* TableViewController.m */,
 				D75FA58D1D6BF43200D85A0C /* Main.storyboard */,
 				D75FA5901D6BF43200D85A0C /* Assets.xcassets */,
 				D75FA5921D6BF43200D85A0C /* LaunchScreen.storyboard */,
@@ -138,6 +148,19 @@
 				D75FA5AB1D6BF43200D85A0C /* Info.plist */,
 			);
 			path = ZCJTableViewCellDemoUITests;
+			sourceTree = "<group>";
+		};
+		D75FA5B71D6BF44A00D85A0C /* ZCJTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D75FA5B81D6BF58700D85A0C /* ZCJButtonView.h */,
+				D75FA5B91D6BF58700D85A0C /* ZCJButtonView.m */,
+				D75FA5BB1D6BF5A700D85A0C /* ZCJTableViewCell.h */,
+				D75FA5BC1D6BF5A700D85A0C /* ZCJTableViewCell.m */,
+				D75FA5BE1D6C20D500D85A0C /* NSMutableArray+ZCJButton.h */,
+				D75FA5BF1D6C20D500D85A0C /* NSMutableArray+ZCJButton.m */,
+			);
+			path = ZCJTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75FA58C1D6BF43200D85A0C /* ViewController.m in Sources */,
+				D75FA5BD1D6BF5A700D85A0C /* ZCJTableViewCell.m in Sources */,
+				D75FA5C61D6C4A1000D85A0C /* TableViewController.m in Sources */,
+				D75FA5BA1D6BF58700D85A0C /* ZCJButtonView.m in Sources */,
+				D75FA5C01D6C20D500D85A0C /* NSMutableArray+ZCJButton.m in Sources */,
 				D75FA5891D6BF43200D85A0C /* AppDelegate.m in Sources */,
 				D75FA5861D6BF43200D85A0C /* main.m in Sources */,
 			);
@@ -496,6 +522,7 @@
 				D75FA5B01D6BF43200D85A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D75FA5B11D6BF43200D85A0C /* Build configuration list for PBXNativeTarget "ZCJTableViewCellDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +531,7 @@
 				D75FA5B31D6BF43200D85A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D75FA5B41D6BF43200D85A0C /* Build configuration list for PBXNativeTarget "ZCJTableViewCellDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +540,7 @@
 				D75FA5B61D6BF43200D85A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
